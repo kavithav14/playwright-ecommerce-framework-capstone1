@@ -1,0 +1,23 @@
+{
+  "validUser": {
+    "email": "",
+    "password": ""
+  },
+  "invalidUsers": [
+    {
+      "email": "invalid@test.com",
+      "password": "wrongpassword",
+      "description": "Non-existent user"
+    },
+    {
+      "email": "admin@test.com",
+      "password": "",
+      "description": "Empty password"
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "description": "Empty email"
+    }
+  ]
+}
